@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UISwipeGestureRecognizer *swipeLeft;
+@property (retain, nonatomic) IBOutlet UISwipeGestureRecognizer *swipeRight;
+@property (retain, nonatomic) IBOutlet UILabel *label;
 
 @end
